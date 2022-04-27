@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Company Registration</title>
+    <link rel="stylesheet" type="text/css" href="msg.css"/>
+    
+  </head>
+  <body>
+    <section>
+      <div class="contentbx">
+        <div class="formbx">
+          <form action="company_registration.php" method="post">
+            <h1>JOBSCOPE</h1>
+            <h2>Write a Message</h2>
+            <div class="inputbx">
+              <p>User ID</p>
+              <input type="text" name="EmpID" />
+            </div>
+            <div class="inputbx">
+              <p>From</p>
+              <input type="text" name="name" />
+            </div>
+            <div class="inputbx">
+              <p>Opinion</p>
+              <span style="color: #545885">Accepted</span>
+              <input type="radio" name="gender" value="Male">
+              <span style="color: #545885">Rejected</span>
+              <input type="radio" name="gender" value="Female" checked>
+            </div>
+            <div class="inputbx">
+              <p>Message</p>
+              <textarea rows="10" cols="90" class="textarea"></textarea>
+            </div>
+            <div class="inputbx">
+              <div id="logx">
+                <input type="submit" value="Register" name="save" />
+              </div>
+            </div>
+            <div class="inputbx">
+              <p style="position: relative; left: 50%">
+                Seen this page before?
+              </p>
+              <input type="submit" value="Login" name="" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+form {
+  box-align: center;
+}
+section .contentbx .formbx h1 {
+  text-align: center;
+  color: #545885;
+  font-weight: lighter;
+  font-size: 70px;
+}
+section .contentbx .formbx h2 {
+  color: #545885;
+  font-weight: 540;
+  font-size: 35px;
+}
+section .contentbx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+section .contentbx .formbx {
+  width: 100%;
+}
+section .contentbx .formbx .inputbx {
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+section .contentbx .formbx .inputbx p {
+  font-size: 16px;
+  margin-bottom: 5px;
+
+  color: #545885;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+section .contentbx .formbx .inputbx p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #545885;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+}
+section .contentbx .formbx .inputbx input  {
+  width: 650px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #6374e6;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #545885;
+  background: transparent;
+  border-radius: 30px;
+}
+.inputbx input[type="radio"] {
+  color: #545885;
+}
+
+section .contentbx .formbx .inputbx input[value="Login"] {
+  background: #545885;
+  width: 300px;
+  font-size: 25px;
+  margin-left: 150px;
+  color: white;
+}
+section .contentbx .formbx .inputbx input[value="Register"] {
+  background: rgb(16, 206, 16);
+  font-size: 25px;
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 70px;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.option {
+  width: 690px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #6374e6;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #545885;
+  background: transparent;
+  border-radius: 30px;
+
+  /* position: relative;
+  left: 200%;
+  line-height: 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #6374e6;
+  outline: none;
+  overflow: hidden; */
+}
+.inputbx .msg{
+  height: 200px;
+}
+
+ .textarea
+{
+  border-radius: 10px;
+  border: 2px solid #545885;
+  outline: none;
+}

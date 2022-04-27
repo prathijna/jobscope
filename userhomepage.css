@@ -1,0 +1,16 @@
+.header {
+  text-align: left;
+  background: #545885;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+  padding-left: 30px;
+}
+.b1 {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 15px;
+  padding-right: 20px;
+  color: white;
+}

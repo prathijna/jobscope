@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+.topnav
+{
+	background-color: #545885;
+}
+.topnav h1
+{
+ 	color: white;
+ 	padding-left: 20px;
+	margin-bottom: 5px;
+	font-weight: 800;
+	font-size: 50px;
+}
+
+.inputBx p
+{
+	text-align: center;
+	margin-top: 70px;
+	font-size: 20px;
+	color:  #545885;
+}
+
+
+
+.inputBx input[value="Company Log In"]
+{
+	background: #545885;
+	width: 370px;
+	height: 44px;
+	font-size: 25px;
+	color: white;
+	border-radius: 30px;
+	margin-left: 670px;
+	margin-top: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.inputBx input[value="User Log In"]
+{
+	background: #545885;
+	width: 370px;
+	height: 44px;
+	font-size: 25px;
+	color: white;
+	border-radius: 30px;
+	margin-left: 670px;
+	margin-top: 5px;
+	border: none;
+	cursor: pointer;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Company Registration</title>
+    <link rel="stylesheet" type="text/css" href="company_registration.css"/>
+    
+  </head>
+  <body>
+    <section>
+      <div class="contentbx">
+        <div class="formbx">
+          <form action="company_registration.php" method="post">
+            <h1>JOBSCOPE</h1>
+            <h2>Register</h2>
+            
+            <div class="inputbx">
+              <p>Company Name</p>
+              <input type="text" name="name" required />
+            </div>
+            <div class="inputbx">
+              <p>Company Address</p>
+              <input type="text" name="address" />
+            </div>
+            <div class="inputbx">
+              <p>Location</p>
+              <input type="text" name="location" />
+            </div>
+            <div class="inputbx">
+              <p class="sec">Sector</p>
+              <select class="option" name="sector" required>
+                <option disabled="disabled" selected="selected">
+                  choose sector
+                </option>
+                <option>Software</option>
+                <option>Hardware</option>
+                <option>Education</option>
+                <option>Advertising</option>
+              </select>
+            </div>
+
+            <div class="inputbx">
+              <p>Company Website</p>
+              <input type="text" name="website" />
+            </div>
+            <div class="inputbx">
+              <p>Company Phone Number</p>
+              <input type="text" name="phone" required />
+            </div>
+            <div class="inputbx">
+              <p>Company Email ID</p>
+              <input type="email" name="email" required />
+            </div>
+            <div class="inputbx">
+              <p>Password</p>
+              <input type="password" name="passwd" required />
+            </div>
+
+            <div class="inputbx">
+              <div id="logx">
+                <input type="submit" value="Register" name="save" />
+              </div>
+            </div>
+            <div class="inputbx">
+              <p style="position: relative; left: 50%">
+                Seen this page before?
+              </p>
+              <input type="submit" value="Login" name="" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

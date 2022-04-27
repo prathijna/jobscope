@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Registration</title>
+
+    <link rel="stylesheet" type="text/css" href="user_registration.css" />
+  </head>
+  <body>
+    <section>
+      <div class="contentbx">
+        <div class="formbx">
+          <form action="user_registration.php" method="post">
+            <h1>JOBSCOPE</h1>
+            <h2>Register</h2>
+            <div class="inputbx">
+              <p>First Name</p>
+              <input type="text" name="fname" />
+            </div>
+            <div class="inputbx">
+              <p>Last Name</p>
+              <input type="text" name="lname" />
+            </div>
+            <div class="inputbx">
+              <p>Date of Birth</p>
+              <input type="date" name="dob" />
+            </div>
+            <div class="inputbx">
+              <p>Gender</p>
+              <span style="color: #545885">Male</span>
+              <input type="radio" name="gender" value="Male" />
+              <span style="color: #545885">Female</span>
+              <input type="radio" name="gender" value="Female" checked />
+            </div>
+            <div class="inputbx">
+              <p>Age</p>
+              <input type="number" name="age" />
+            </div>
+            <div class="inputbx">
+              <p>Address</p>
+              <input type="text" name="address" />
+            </div>
+            <div class="inputbx">
+              <p>Phone no</p>
+              <input type="number" name="phone" />
+            </div>
+            <div class="inputbx">
+              <p>Email address</p>
+              <input type="email" name="email" />
+            </div>
+            <div class="inputbx">
+              <p>10th Marks</p>
+              <input type="number" name="TenthMarks" />
+            </div>
+            <div class="inputbx">
+              <p>12th Marks</p>
+              <input type="number" name="TwelthhMarks" />
+            </div>
+            <div class="inputbx">
+              <p>Highest Qualification</p>
+              <input type="text" name="Highest_qualification" />
+            </div>
+            <div class="inputbx">
+              <p>Highest Qualification Marks in % or CGPA</p>
+              <input type="number" name="Marks" />
+            </div>
+            <div class="inputbx">
+              <p>Password</p>
+              <input type="password" name="passwd" />
+            </div>
+            <div class="inputbx">
+              <div id="logx">
+                <input type="submit" name="save" value="Register" />
+              </div>
+            </div>
+            <div class="inputbx">
+              <p style="position: relative; left: 50%">
+                Seen this page before?
+              </p>
+              <input type="submit" value="Login" name="login" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

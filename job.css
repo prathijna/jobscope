@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+form {
+  box-align: center;
+}
+section .contentbx .formbx h1 {
+  text-align: center;
+  color: #545885;
+  font-weight: lighter;
+  font-size: 50px;
+}
+section .contentbx .formbx h2 {
+  color: #545885;
+  font-weight: 540;
+}
+section .contentbx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+section .contentbx .formbx {
+  width: 100%;
+}
+section .contentbx .formbx .inputbx {
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+section .contentbx .formbx .inputbx p {
+  font-size: 16px;
+  margin-bottom: 5px;
+
+  color: #545885;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+section .contentbx .formbx .inputbx input {
+  width: 650px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #6374e6;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #545885;
+  background: transparent;
+  border-radius: 30px;
+}
+
+section .contentbx .formbx .inputbx input[value="Update"] {
+  background: rgb(16, 206, 16);
+  width: 300px;
+  font-size: 25px;
+  margin-left: 170px;
+  color: white;
+  border: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+  color: #a7a7a7;
+  font-size: 20px;
+  font-weight: 50px;
+  padding-right: 200px;
+}
+.text h4
+{
+  align-items: center;
+  cursor: pointer;
+}
